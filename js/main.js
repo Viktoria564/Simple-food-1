@@ -60,7 +60,7 @@ $(function () {
     ]
   });
 
-  $('.user-nav__button, .scrollto').on('click', function () {
+  $('.user-nav__button').on('click', function () {
     $('.menu__box').addClass('menu__box--active');
   });
 
